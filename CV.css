@@ -12,6 +12,12 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+.centerimg:hover{
+    width:200%;
+}
+    
+}
 #imgpp{
     width: 10em;
     border-radius: 600px;
