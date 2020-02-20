@@ -7,40 +7,103 @@
         <meta name="description" content="CV, web mod"/>
         <meta name="keywords" content="CV,web mod"/>
         <meta name="author" content="Rémy Jelin"/>
-        <link href="CV.css" rel="stylesheet"> 
+        <link href="exo4.css" rel="stylesheet"> 
+        
 </head>
   
 <body>
-    <center><img class="img-circle" src="einstein.jpg" alt="Portrait de l'etudiant"></center>
-    <p class="name">Rémy Jelin</p>
-    <div class="box">
-        <h2>Informations générales</h2>
-        <table>
-            <td>
-                <p> Etudiant en bioinformatique, j'ai de nombreuses connaissances dans les langages informatiques. Je possède également de solide acquis en Biologie</p>
-            </td>
-            <td>
+    <img class="centerimg" id="imgpp" src="einstein.jpg" alt="Portrait de l'etudiant">
+
+<h1>Rémy Jelin</h1>
+<div class="menu">
+    <p><a href="#basdepage">Bas de la page </a></p>
+    <p><a href="#IG">Information générale </a></p>
+    <p><a href="#PU">Parcours Universitaire </a></p>
+    <p><a href="#EP">Experience Professionnelle </a></p>
+    <p> <a href="#hautdepage">haut de la page </a> </p>
+    <p><a href="https://www.u-bordeaux.fr/"><img alt="univwebsite" src="imguniv.jpg"width="64" height="64"></a></p>
+</div>
+
+<h2>Informations générales</h2>
+
+<div class="box1" id="hautdepage">
+<table>
+        <td>
+                <p> Etudiant en bioinformatique, j'ai de nombreuses connaissances dans les langages informatiques. Je possède également de solide acquis en biologie</p>
+        </td>
+
+        <td>
                 <p>27 ans</p>
                 <p>Rémy</p>
-                <p class="date">02/02/1993</p>
+                <p class="date"><span class="bolddate" >02/02/1993</span></p>
                 <input class="button" type="button" value="contactez-moi" 
                 onclick="window.location.href='mailto::rejelin@gmail.com'">
-            </td>
-        </table>
-    </div>
-    <div class="box">
-        <h2>Situation actuelle</h2>
+        </td>
+</table>
+</div>
+
+<h2>Situation actuelle</h2>
+<div class="box2">
+
         <p>Etudes M1 Bio-Informatiques parcours Du génome aux Ecosystèmes</p>
-      <p> <span class="emph">Compétences en informatique et biologie></p>
-    </div>
-    <div class="box">
-        <h2>Parcours universitaire</h2>
+      <p> <span class="emph">Compétences en informatique et biologie</p>
+</div>
+
+<h2>Parcours universitaire</h2>
+
+<div id="PU" class="box1">
+                <div class="o-hide">
         <ul>
-            <li>2011-2012 Bac S spécialité SVT</li>
-            <li>2013-2017 Licence Biologie Santé</li>
-            <li>2017-2019 Master de Génétique (Université de Brest)</li>
-            <li>2019 - ? Master de Bioinformatique parcours GENECO(Université de Brest)  </li>
+            <li><span class="bolddate">2011-2012</span> <span class="italicc">Bac S spécialité SVT</span></li>
+            <li><span class="bolddate">2012-2017</span> <span class="italicc">Licence Biologie Santé</span></li>
+            <li><span class="bolddate">2017-2019</span> <span class="italicc">Master de Génétique (Université de Brest)</span></li>
+            <li><span class="bolddate">2019 - ?</span> <a href="https://www.u-bordeaux.fr/formation/2016/PRMA_74/bio-informatique."> <span class="italicc">Master de Bioinformatique parcours Génome aux écosystèmes</span></a></li>
         </ul>
-    </div>
+                </div>
+</div>
+
+<h2>Expérience Professionnelle</h2>
+
+<div id="EP" class="box2">
+        <ul>
+                <li><span class="bolddate">Janvier-Juin 2019</span> <span class="italicc">Stage M2 dans l'UMR7216 du CNRS</span></li>
+                <li><span class="bolddate">Janvier-Mars 2018</span> <span class="italicc">Stage M1 à l'hopital Morvan</span></li>
+                <li><span class="bolddate">Juin-Juillet 2017</span> <span class="italicc">Stage volontaire dans une unité de recherche à l'institut Curie</span></li>
+                <li><span class="bolddate">2012-2017</span> <span class="italicc">Cours particulier de Français/Anglais/Maths</span></li>
+        </ul>
+</div>
+
+
+<h2>Compétences Informatiques</h2>
+
+<div class="box1">
+
+        <ul>
+             <li>Langages : Javascript, html, css, python, latex</li>
+             <li>logiciels : libreoffice, GIMP2.0, Rstudio</li>
+        </ul>
+</div>
+
+<h2>Langues et hobbies</h2>
+
+<div class="box2">
+        <h3>Langues</h3>
+        <p><span class="flag"><img src="flagfr.png" alt="french flag"></span> Langue maternelle </p>
+        <p><span class="flag"><img src="flaguk.png" alt="United Kingdom flag"></span> Niveau CLES2 </p>
+        <h3>Hobbies</h3>
+        <ul>
+                <li>Archéologie, Sciences, Physique, Astronomie</li>
+                <li>Jeux vidéos, lecture, Batterie, Basse, Capoeira</li>
+        </ul>
+</div>
+
+<div id="basdepage">
+<footer>
+
+        <p> <a href="#hautdepage">Retournez en haut de la page </a> </p>
+
+</footer>
+</div>
+
 </body>
 </html>
